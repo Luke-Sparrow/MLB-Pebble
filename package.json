@@ -1,0 +1,32 @@
+{
+    "author": "DigitalHeron",
+    "dependencies": {
+        "@moddable/pebbleproxy": "^0.1.0"
+    },
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "mlb-pebble",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "MLB Team Tracker for Pebble",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "moddable",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "dee44c7f-8825-48d1-b012-2482376aa249",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
